@@ -11,7 +11,7 @@ import { ServicesComponent } from './components/services/services.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    ServicesComponent
+    ServicesComponent,
   ],
   imports: [
     BrowserModule,
