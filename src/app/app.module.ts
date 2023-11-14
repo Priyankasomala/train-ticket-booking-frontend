@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { ServicesComponent } from './components/services/services.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { IconsComponent } from './components/icons/icons.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { RegisterComponent } from './components/register/register.component';
     ServicesComponent,
     LoginComponent,
     RegisterComponent,
+    IconsComponent,
   ],
   imports: [
     BrowserModule,
