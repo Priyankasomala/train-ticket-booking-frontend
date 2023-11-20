@@ -9,6 +9,8 @@ import { ServicesComponent } from './components/services/services.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { IconsComponent } from './components/icons/icons.component';
+import { BookingComponent } from './components/booking/booking.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { IconsComponent } from './components/icons/icons.component';
     LoginComponent,
     RegisterComponent,
     IconsComponent,
+    BookingComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
