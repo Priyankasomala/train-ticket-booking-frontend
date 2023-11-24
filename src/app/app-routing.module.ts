@@ -6,6 +6,7 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { IconsComponent } from './components/icons/icons.component';
 import { BookingComponent } from './components/booking/booking.component';
+import { TicketConfirmComponent } from './components/ticket-confirm/ticket-confirm.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -13,6 +14,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'register', component: RegisterComponent},
   { path: 'booking', component:BookingComponent },
+  { path: 'home',component:HomeComponent},
+  { path: 'ticket-confirm', component:TicketConfirmComponent}
 ];
 
 @NgModule({
